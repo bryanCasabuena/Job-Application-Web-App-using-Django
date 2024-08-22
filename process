@@ -1,0 +1,30 @@
+$ pip install django 
+
+$ django-admin startproject mysite .
+
+**To create an app**
+$ python manage.py startapp <name>
+
+# Add app to the settings in mysite/settings.py
+
+# To run the file
+$ python manage.py runserver
+
+**Create Database Model**
+# go to job_application/models.py
+
+# set up database models
+
+# to make migrations
+$ python manage.py makemigrations
+
+# migrate those data
+$ python manage.py migrate
+
+**Creating a view and a template**
+# open views.py
+# make templates folder inside job_application folder for index directory
+# make index.html
+# make urls.py under job_application
+    #make url pattern variable
+
