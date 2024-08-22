@@ -28,3 +28,4 @@ $ python manage.py migrate
 # make urls.py under job_application
     #make url pattern variable
 
+new commit
